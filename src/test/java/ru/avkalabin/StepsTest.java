@@ -1,8 +1,8 @@
 package ru.avkalabin;
 
 import com.codeborne.selenide.Condition;
-import com.codeborne.selenide.logevents.SelenideLogger;
-import io.qameta.allure.selenide.AllureSelenide;
+import io.qameta.allure.*;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Selectors.byLinkText;
@@ -12,12 +12,16 @@ import static io.qameta.allure.Allure.step;
 
 public class StepsTest {
 
-    private static final String REPOSITORY = "eroshenkoam/allure-example";
-    private static final int ISSUE = 80;
+    private static final String REPOSITORY = "avkalabin/allure";
+    private static final int ISSUE = 1;
 
+    @Feature("Issue в репозитории")
+    @Story("Проверка Issue")
+    @Owner("avkalabin")
+    @Severity(SeverityLevel.BLOCKER)
+    @DisplayName("Проверка Issue с Lambda steps")
     @Test
     public void testLambdaTest() {
-        SelenideLogger.addListener("allure", new AllureSelenide());
 
         step("Открываем главную страницу", () -> {
             open("https://github.com");
@@ -42,9 +46,13 @@ public class StepsTest {
     }
 
 
+    @Feature("Issue в репозитории")
+    @Story("Проверка Issue")
+    @Owner("avkalabin")
+    @Severity(SeverityLevel.BLOCKER)
+    @DisplayName("Проверка Issue с @Steps")
     @Test
     public void testAnnotatedStep() {
-        SelenideLogger.addListener("allure", new AllureSelenide());
         WebSteps steps = new WebSteps();
 
         steps.openMainPage();
