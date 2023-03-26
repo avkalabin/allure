@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Mar 26 18:05:31 GMT 2023","Sun Mar 26 18:05:34 GMT 2023","2570","","ru.avkalabin.StepsTest","","ru.avkalabin.StepsTest","testLambdaTest","Проверка Issue с Lambda steps",""
+"passed","Sun Mar 26 18:05:28 GMT 2023","Sun Mar 26 18:05:31 GMT 2023","3005","","ru.avkalabin.StepsTest","","ru.avkalabin.StepsTest","testAnnotatedStep","Проверка Issue с @Steps",""
+"passed","Sun Mar 26 18:05:21 GMT 2023","Sun Mar 26 18:05:28 GMT 2023","6711","","ru.avkalabin.SelenideTest","","ru.avkalabin.SelenideTest","testIssueSearch","Проверка Issue с Чистый Selenide (с Listener)",""
