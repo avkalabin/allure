@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Mar 26 16:30:05 GMT 2023","Sun Mar 26 16:30:09 GMT 2023","4189","","ru.avkalabin.AttachmentsTest","","ru.avkalabin.AttachmentsTest","testLambdaAttachments","testLambdaAttachments()",""
+"passed","Sun Mar 26 16:30:14 GMT 2023","Sun Mar 26 16:30:17 GMT 2023","2326","","ru.avkalabin.StepsTest","","ru.avkalabin.StepsTest","testAnnotatedStep","testAnnotatedStep()",""
+"passed","Sun Mar 26 16:30:10 GMT 2023","Sun Mar 26 16:30:10 GMT 2023","4","","ru.avkalabin.LabelsTest","","ru.avkalabin.LabelsTest","testStaticLabels","Создание Issue для авторизованного пользователя",""
+"passed","Sun Mar 26 16:30:17 GMT 2023","Sun Mar 26 16:30:19 GMT 2023","2095","","ru.avkalabin.StepsTest","","ru.avkalabin.StepsTest","testLambdaTest","testLambdaTest()",""
+"passed","Sun Mar 26 16:30:09 GMT 2023","Sun Mar 26 16:30:10 GMT 2023","1472","","ru.avkalabin.AttachmentsTest","","ru.avkalabin.AttachmentsTest","testAnnotatedAttachments","testAnnotatedAttachments()",""
+"passed","Sun Mar 26 16:30:11 GMT 2023","Sun Mar 26 16:30:14 GMT 2023","3702","","ru.avkalabin.SelenideTest","","ru.avkalabin.SelenideTest","testIssueSearch","testIssueSearch()",""
+"passed","Sun Mar 26 16:30:10 GMT 2023","Sun Mar 26 16:30:11 GMT 2023","3","","ru.avkalabin.LabelsTest","","ru.avkalabin.LabelsTest","testDynamicLabels","Создание Issue для авторизованного пользователя",""
