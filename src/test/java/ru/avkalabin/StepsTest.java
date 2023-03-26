@@ -13,7 +13,7 @@ import static io.qameta.allure.Allure.step;
 public class StepsTest {
 
     private static final String REPOSITORY = "eroshenkoam/allure-example";
-    private static final int ISSUE = 180;
+    private static final int ISSUE = 80;
 
     @Test
     public void testLambdaTest() {

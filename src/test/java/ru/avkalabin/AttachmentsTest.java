@@ -14,7 +14,7 @@ import static io.qameta.allure.Allure.step;
 public class AttachmentsTest {
 
     private static final String REPOSITORY = "eroshenkoam/allure-example";
-    private static final int ISSUE = 180;
+    private static final int ISSUE = 80;
 
     @Test
     public void testLambdaAttachments() {

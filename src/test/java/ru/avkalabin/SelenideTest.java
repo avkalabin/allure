@@ -19,9 +19,8 @@ public class SelenideTest {
         $("[placeholder='Search GitHub']").setValue("eroshenkoam/allure-example").pressEnter();
         $(byLinkText("eroshenkoam/allure-example")).click();
         $("#issues-tab").click();
-        $(withText("#801")).should(Condition.exist);
+        $(withText("#80")).should(Condition.exist);
 
 
-        sleep(2000);
     }
 }
