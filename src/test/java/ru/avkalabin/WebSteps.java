@@ -2,7 +2,6 @@ package ru.avkalabin;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.WebDriverRunner;
-import com.codeborne.selenide.commands.TakeScreenshot;
 import io.qameta.allure.Attachment;
 import io.qameta.allure.Step;
 import org.openqa.selenium.OutputType;
