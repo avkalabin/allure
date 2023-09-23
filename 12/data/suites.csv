@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Sep 23 16:04:57 GMT 2023","Sat Sep 23 16:05:04 GMT 2023","7514","","ru.avkalabin.SelenideTest","","ru.avkalabin.SelenideTest","testIssueSearch","Проверка Issue с Чистый Selenide (с Listener)",""
+"failed","Sat Sep 23 16:05:10 GMT 2023","Sat Sep 23 16:05:16 GMT 2023","5631","","ru.avkalabin.StepsTest","","ru.avkalabin.StepsTest","testLambdaTest","Проверка Issue с Lambda steps",""
+"failed","Sat Sep 23 16:05:04 GMT 2023","Sat Sep 23 16:05:10 GMT 2023","5678","","ru.avkalabin.StepsTest","","ru.avkalabin.StepsTest","testAnnotatedStep","Проверка Issue с @Steps",""

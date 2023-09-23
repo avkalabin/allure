@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"2f657f7ac3f2cb11f607fedcef1e2df0","name":"ru.avkalabin.StepsTest","statistic":{"failed":2,"broken":0,"skipped":0,"passed":0,"unknown":0,"total":2}},{"uid":"6b95913fa85cf5abcb4a58aab9c36c64","name":"ru.avkalabin.SelenideTest","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}}]}
