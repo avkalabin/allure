@@ -24,7 +24,8 @@ public class SelenideTest {
         SelenideLogger.addListener("allure", new AllureSelenide());
 
         open("https://github.com");
-        $("[placeholder='Search GitHub']").setValue("avkalabin/allure").pressEnter();
+        $(".search-input").click();
+        $("#query-builder-test").setValue("avkalabin/allure").pressEnter();
         $(byLinkText("avkalabin/allure")).click();
         $("#issues-tab").click();
         $(withText("#1")).should(Condition.exist);
